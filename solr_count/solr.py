@@ -1,5 +1,6 @@
 import sunburnt
 import httplib2
+import tweepy
 
 SOLR_URL = "http://localhost:8983/solr"
 h = httplib2.Http(cache="/var/tmp/solr_cache")
